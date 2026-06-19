@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
-import { Heart, ShoppingCart, Whatsapp } from 'lucide-react';
+import { Heart, ShoppingCart, MessageSquare } from 'lucide-react'; // Whatsapp yerine MessageSquare kullanıldı
 
 import { getProductById, getRelatedProducts } from '../data/products';
 import { useCart } from '../contexts/CartContext';
@@ -10,7 +10,7 @@ import { useWishlist } from '../contexts/WishlistContext';
 
 import Button from '../components/common/Button';
 import SectionHeading from '../components/common/SectionHeading';
-import ProductCard from '../components/common/ProductCard';
+import ProductCard from '../components/common/ProductCard'; // ProductCard doğru import edildi
 import Carousel from '../components/ui/Carousel';
 import AnimatedSection from '../components/common/AnimatedSection';
 
@@ -122,7 +122,7 @@ const ProductDetailPage = () => {
               rel="noopener noreferrer"
               className="flex items-center justify-center bg-green-600 text-white py-3 px-6 rounded-md hover:bg-green-700 transition-colors duration-300 mb-8"
             >
-              <Whatsapp size={20} className="mr-3" />
+              <MessageSquare size={20} className="mr-3" /> {/* Whatsapp yerine MessageSquare kullanıldı */}
               {t('contact_page.whatsapp_message_prefill')}
             </a>
 

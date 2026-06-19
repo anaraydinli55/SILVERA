@@ -1,0 +1,11 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .logo-text {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 700;
+      font-size: 40px;
+    }
+  </style>
+  <text x="0" y="45" class="logo-text" fill="#C8A56A">SILVERA</text>
+  <path d="M195 45L180 45L180 30L195 30L195 45Z" fill="#C8A56A"/>
+</svg>

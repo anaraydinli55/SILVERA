@@ -95,7 +95,7 @@ const Footer = () => {
             <li>
               <span className="block text-accent-gold">WhatsApp:</span>
               <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="hover:text-accent-gold transition-colors duration-300 flex items-center">
-                <Whatsapp size={16} className="mr-1" /> Send Message
+                <MessageSquare size={16} className="mr-1" /> {t('common.send_whatsapp_message', 'Send Message')} {/* Yeni çeviri anahtarı ekledim */}
               </a>
             </li>
             <li className="mt-4">

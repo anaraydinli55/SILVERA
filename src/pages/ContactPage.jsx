@@ -31,7 +31,7 @@ const ContactPage = () => {
   };
 
   const prefilledWhatsAppMessage = encodeURIComponent(t('contact_page.whatsapp_message_prefill'));
-  const whatsappLink = `https://wa.me/00994554828424?text=${prefilledWhatsAppMessage}`; // Replace with your actual WhatsApp number
+  const whatsappLink = `https://wa.me/+994554828424?text=${prefilledWhatsAppMessage}`; // Replace with your actual WhatsApp number
 
   return (
     <div className="bg-primary-bg min-h-screen pt-24 pb-12">
@@ -49,13 +49,16 @@ const ContactPage = () => {
           >
             <h3 className="text-3xl font-heading text-accent-gold mb-6">{t('contact_page.title')}</h3>
             <ul className="space-y-6 text-text-light text-lg">
+              {/* Düzeltme: İlk li etiketi burada kapanıyordu */}
               <li className="flex items-center">
                 <Mail size={24} className="mr-4 text-accent-gold" />
                 <div>
                   <span className="block text-text-muted">{t('contact_page.email_address')}</span>
                   <a href="mailto:info@silvera.com" className="hover:text-accent-gold transition-colors duration-300">info@silvera.com</a>
                 </div>
-<li className="flex items-center">
+              </li> {/* <-- BURADA KAPANAN 'li' ETİKETİ EKLENDİ */}
+
+              <li className="flex items-center">
                 <MessageSquare size={24} className="mr-4 text-accent-gold" /> {/* Whatsapp yerine MessageSquare */}
                 <div>
                   <span className="block text-text-muted">WhatsApp</span>
@@ -68,7 +71,7 @@ const ContactPage = () => {
                 <Phone size={24} className="mr-4 text-accent-gold flex-shrink-0" />
                 <div>
                   <span className="block text-text-muted">Telefon</span>
-                  <a href="tel:+994501234567" className="hover:text-accent-gold transition-colors duration-300">+994 50 123 45 67</a> {/* Replace with actual number */}
+                  <a href="tel:+994554828424" className="hover:text-accent-gold transition-colors duration-300">+994 55 482 84 24</a> {/* Replace with actual number */}
                 </div>
               </li>
               <li className="flex items-start">

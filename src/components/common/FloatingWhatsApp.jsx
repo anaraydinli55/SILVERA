@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Whatsapp } from 'lucide-react';
+import { MessageSquare } from 'lucide-react'; // Whatsapp yerine MessageSquare
 import { useTranslation } from 'react-i18next';
 
 const FloatingWhatsApp = () => {

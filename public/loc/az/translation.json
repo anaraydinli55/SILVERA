@@ -120,4 +120,33 @@
   "wishlist": {
     "your_wishlist": "Sevimliləriniz",
     "empty_wishlist": "Sevimlilər siyahınız boşdur.",
-    "add_to_cart": "Səb
+    "add_to_cart": "Səbətə Əlavə Et"
+  },
+  "checkout": {
+    "title": "Sifarişi Tamamla",
+    "shipping_address": "Çatdırılma Ünvanı",
+    "first_name": "Adınız",
+    "last_name": "Soyadınız",
+    "address_line1": "Ünvan Sətiri 1",
+    "address_line2": "Ünvan Sətiri 2 (Opsional)",
+    "city": "Şəhər",
+    "state_province": "Ştat/Vilayət",
+    "zip_code": "Poçt Kodu",
+    "country": "Ölkə",
+    "payment_method": "Ödəniş Metodu",
+    "card_number": "Kart Nömrəsi",
+    "expiration_date": "Bitmə Tarixi",
+    "cvv": "CVV",
+    "place_order": "Sifarişi Yerləşdir"
+  },
+  "common": {
+    "price": "Qiymət",
+    "add": "Əlavə Et",
+    "remove": "Sil",
+    "view_details": "Detallara Bax",
+    "quantity": "Miqdar",
+    "update": "Yenilə",
+    "total": "Cəm",
+    "error_message": "Bir xəta baş verdi. Zəhmət olmasa yenidən cəhd edin."
+  }
+}

@@ -31,7 +31,7 @@ const ContactPage = () => {
   };
 
   const prefilledWhatsAppMessage = encodeURIComponent(t('contact_page.whatsapp_message_prefill'));
-  const whatsappLink = `https://wa.me/YOUR_WHATSAPP_NUMBER?text=${prefilledWhatsAppMessage}`; // Replace with your actual WhatsApp number
+  const whatsappLink = `https://wa.me/00994554828424?text=${prefilledWhatsAppMessage}`; // Replace with your actual WhatsApp number
 
   return (
     <div className="bg-primary-bg min-h-screen pt-24 pb-12">
@@ -55,9 +55,8 @@ const ContactPage = () => {
                   <span className="block text-text-muted">{t('contact_page.email_address')}</span>
                   <a href="mailto:info@silvera.com" className="hover:text-accent-gold transition-colors duration-300">info@silvera.com</a>
                 </div>
-              </li>
-              <li className="flex items-center">
-                <Whatsapp size={24} className="mr-4 text-accent-gold" />
+<li className="flex items-center">
+                <MessageSquare size={24} className="mr-4 text-accent-gold" /> {/* Whatsapp yerine MessageSquare */}
                 <div>
                   <span className="block text-text-muted">WhatsApp</span>
                   <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="hover:text-accent-gold transition-colors duration-300">

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Instagram, Facebook, Twitter, Mail, Phone, MapPin, Whatsapp } from 'lucide-react';
+import { Instagram, Facebook, Twitter, Mail, Phone, MapPin, MessageSquare } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const Footer = () => {

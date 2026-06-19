@@ -6,7 +6,7 @@ import { useTranslation } from 'react-i18next';
 const FloatingWhatsApp = () => {
   const { t } = useTranslation();
   const prefilledMessage = encodeURIComponent(t('contact_page.whatsapp_message_prefill'));
-  const whatsappNumber = 'YOUR_WHATSAPP_NUMBER'; // Replace with your actual WhatsApp number
+  const whatsappNumber = '+994554828424'; // Replace with your actual WhatsApp number
 
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${prefilledMessage}`;
 
@@ -23,7 +23,7 @@ const FloatingWhatsApp = () => {
       whileTap={{ scale: 0.9 }}
       aria-label="Contact us on WhatsApp"
     >
-      <Whatsapp size={32} />
+      <MessageSquare size={32} />
     </motion.a>
   );
 };

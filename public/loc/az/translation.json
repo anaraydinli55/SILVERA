@@ -1,0 +1,123 @@
+{
+  "header": {
+    "home": "Ana Səhifə",
+    "collections": "Kolleksiyalar",
+    "new_arrivals": "Yeni Gələnlər",
+    "best_sellers": "Ən Çox Satılanlar",
+    "contact": "Əlaqə",
+    "wishlist": "Sevimlilər",
+    "cart": "Səbət",
+    "account": "Hesab",
+    "search": "Axtarış"
+  },
+  "hero_section": {
+    "title": "Zərif Gümüşün Cazibəsi",
+    "subtitle": "Zamansız zərifliyi kəşf edin.",
+    "shop_now": "İndi Alış-veriş Edin"
+  },
+  "featured_collections": {
+    "title": "Seçilmiş Kolleksiyalar",
+    "rings": "Üzüklər",
+    "necklaces": "Boyunbağılar",
+    "bracelets": "Bilərziklər",
+    "earrings": "Sırğalar",
+    "view_all": "Hamısına Bax"
+  },
+  "best_sellers": {
+    "title": "Ən Çox Satılanlar",
+    "discover_more": "Daha Çox Kəşf Edin"
+  },
+  "new_arrivals": {
+    "title": "Yeni Gələnlər",
+    "explore_latest": "Ən Yeniləri Kəşf Edin"
+  },
+  "brand_story": {
+    "title": "SILVERA Hekayəsi",
+    "subtitle": "Sənətkarlıq və Saflıq",
+    "paragraph1": "SILVERA-da hər bir parça sənətkarlığın və dəqiq işin şah əsəridir. Bizim kolleksiyalarımız yalnız zərgərlik deyil; onlar zəriflik, keyfiyyət və zamansız gözəlliyə olan bağlılığımızın bir ifadəsidir.",
+    "paragraph2": "Ən yüksək keyfiyyətli gümüşdən hazırlanmış, hər bir dizayn incə detala diqqətlə hazırlanır. SILVERA-nı seçməklə siz sadəcə bir aksessuar seçmirsiniz, həm də illər boyu dəyər verəcəyiniz bir mirası seçirsiniz. Gümüşün təbii parıltısını və ona əlavə etdiyimiz sənətkarlıq məharətini hiss edin."
+  },
+  "product_showcase": {
+    "title": "Qalereyamız",
+    "subtitle": "Seçilmiş Gümüş Zərgərlik",
+    "view_all_products": "Bütün Məhsullara Bax"
+  },
+  "testimonials": {
+    "title": "Müştəri Rəyləri",
+    "subtitle": "Onlar SILVERA haqqında nə deyirlər",
+    "customer_name_1": "Aynur Hüseynova",
+    "customer_review_1": "SILVERA-dan aldığım boyunbağı sadəcə möhtəşəmdir! Keyfiyyət inanılmazdır və dizayn çox zərifdir. Mütləq tövsiyə edirəm!",
+    "customer_name_2": "Cavid Məmmədov",
+    "customer_review_2": "Mən arvadım üçün sırğalar aldım və o, onlara aşiq oldu. Çatdırılma sürətli idi və qablaşdırma çox dəbdəbəli idi. Təşəkkürlər SILVERA!",
+    "customer_name_3": "Leyla Qurbanova",
+    "customer_review_3": "Bu saytdan ilk alış-verişim idi və tamamilə məmnun qaldım. Keyfiyyət özünü doğruldur. Artıq yeni kolleksiyaları gözləyirəm."
+  },
+  "trust_quality": {
+    "title": "Etibar və Keyfiyyət",
+    "silver_certification_title": "925 Ayar Gümüş",
+    "silver_certification_text": "Bütün zərgərlik məhsullarımız əsl 925 Ayar Gümüşdən hazırlanır və saflığını təmin etmək üçün sertifikatlaşdırılır.",
+    "secure_payment_title": "Təhlükəsiz Ödənişlər",
+    "secure_payment_text": "Ödənişləriniz ən son şifrələmə texnologiyası ilə qorunur. Təhlükəsiz alış-veriş təcrübəsi təmin edirik.",
+    "fast_shipping_title": "Sürətli Çatdırılma",
+    "fast_shipping_text": "Sifarişlərinizi diqqətlə qablaşdırır və tez bir zamanda qapınıza çatdırırıq. Dünya üzrə çatdırılma mövcuddur.",
+    "craftsmanship_title": "Usta Sənətkarlıq",
+    "craftsmanship_text": "Hər bir parça ən yüksək standartlara uyğun olaraq təcrübəli sənətkarlar tərəfindən diqqətlə əl ilə hazırlanır."
+  },
+  "newsletter": {
+    "title": "Yeniliklərdən Xəbərdar Olun",
+    "subtitle": "Eksklüziv təkliflər, yeni kolleksiyalar və daha çox şey haqqında məlumat əldə etmək üçün abunə olun.",
+    "placeholder": "Email ünvanınız",
+    "subscribe": "Abunə Ol"
+  },
+  "call_to_action": {
+    "title": "Öz Zərifliyinizi Tapın",
+    "subtitle": "SILVERA-nın zamansız gözəlliyini bu gün kəşf edin.",
+    "shop_all": "Bütün Məhsullara Baxın"
+  },
+  "footer": {
+    "about_us": "Haqqımızda",
+    "contact_us": "Bizimlə Əlaqə",
+    "faq": "Tez-tez Verilən Suallar",
+    "privacy_policy": "Məxfilik Siyasəti",
+    "terms_conditions": "Şərtlər və Qaydalar",
+    "shipping_returns": "Çatdırılma və Geri Qaytarma",
+    "all_rights_reserved": "Bütün hüquqlar qorunur.",
+    "newsletter_cta": "Yeniliklərdən xəbərdar olun",
+    "email_us": "Bizə Yazın:",
+    "follow_us": "Bizi İzləyin"
+  },
+  "contact_page": {
+    "title": "Bizimlə Əlaqə Saxlayın",
+    "email_address": "Email ünvanımız:",
+    "business_hours": "İş Saatları:",
+    "hours_monday_friday": "Bazar ertəsi - Cümə: 09:00 - 18:00",
+    "hours_saturday": "Şənbə: 10:00 - 16:00",
+    "hours_sunday": "Bazar: Qapalıdır",
+    "send_message": "Mesaj Göndər",
+    "your_name": "Adınız",
+    "your_email": "Emailiniz",
+    "your_message": "Mesajınız",
+    "whatsapp_message_prefill": "Salam, SILVERA məhsulları haqqında məlumat almaq istəyirəm."
+  },
+  "product_detail": {
+    "add_to_cart": "Səbətə Əlavə Et",
+    "add_to_wishlist": "Sevimlilərə Əlavə Et",
+    "description": "Təsvir",
+    "details": "Detallar",
+    "material": "Material:",
+    "dimensions": "Ölçülər:",
+    "weight": "Çəki:",
+    "related_products": "Oxşar Məhsullar"
+  },
+  "cart": {
+    "shopping_cart": "Alış-veriş Səbəti",
+    "empty_cart": "Səbətiniz boşdur.",
+    "continue_shopping": "Alış-verişə Davam Et",
+    "subtotal": "Ara Cəm:",
+    "checkout": "Sifarişi Tamamla",
+    "remove": "Sil"
+  },
+  "wishlist": {
+    "your_wishlist": "Sevimliləriniz",
+    "empty_wishlist": "Sevimlilər siyahınız boşdur.",
+    "add_to_cart": "Səb

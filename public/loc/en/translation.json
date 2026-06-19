@@ -1,0 +1,152 @@
+{
+  "header": {
+    "home": "Home",
+    "collections": "Collections",
+    "new_arrivals": "New Arrivals",
+    "best_sellers": "Best Sellers",
+    "contact": "Contact",
+    "wishlist": "Wishlist",
+    "cart": "Cart",
+    "account": "Account",
+    "search": "Search"
+  },
+  "hero_section": {
+    "title": "The Allure of Exquisite Silver",
+    "subtitle": "Discover timeless elegance.",
+    "shop_now": "Shop Now"
+  },
+  "featured_collections": {
+    "title": "Featured Collections",
+    "rings": "Rings",
+    "necklaces": "Necklaces",
+    "bracelets": "Bracelets",
+    "earrings": "Earrings",
+    "view_all": "View All"
+  },
+  "best_sellers": {
+    "title": "Best Sellers",
+    "discover_more": "Discover More"
+  },
+  "new_arrivals": {
+    "title": "New Arrivals",
+    "explore_latest": "Explore the Latest"
+  },
+  "brand_story": {
+    "title": "The SILVERA Story",
+    "subtitle": "Craftsmanship & Purity",
+    "paragraph1": "At SILVERA, every piece is a masterpiece of craftsmanship and precision. Our collections are not just jewelry; they are an expression of our commitment to elegance, quality, and timeless beauty.",
+    "paragraph2": "Crafted from the highest quality sterling silver, each design is meticulously made with attention to exquisite detail. By choosing SILVERA, you are not just selecting an accessory, but an heirloom to cherish for years to come. Feel the natural brilliance of silver and the artisanal skill we infuse into every creation."
+  },
+  "product_showcase": {
+    "title": "Our Gallery",
+    "subtitle": "Curated Silver Jewelry",
+    "view_all_products": "View All Products"
+  },
+  "testimonials": {
+    "title": "Customer Testimonials",
+    "subtitle": "What our customers say about SILVERA",
+    "customer_name_1": "Aynur Huseynova",
+    "customer_review_1": "The necklace I bought from SILVERA is simply stunning! The quality is incredible, and the design is so elegant. Highly recommend!",
+    "customer_name_2": "Javid Mammadov",
+    "customer_review_2": "I bought earrings for my wife and she absolutely adores them. The delivery was fast, and the packaging was very luxurious. Thank you, SILVERA!",
+    "customer_name_3": "Leyla Gurbanova",
+    "customer_review_3": "This was my first purchase from this site and I am completely satisfied. The quality speaks for itself. Already looking forward to new collections."
+  },
+  "trust_quality": {
+    "title": "Trust & Quality",
+    "silver_certification_title": "925 Sterling Silver",
+    "silver_certification_text": "All our jewelry is crafted from genuine 925 Sterling Silver, certified to ensure its purity.",
+    "secure_payment_title": "Secure Payments",
+    "secure_payment_text": "Your payments are protected with state-of-the-art encryption technology. We ensure a secure shopping experience.",
+    "fast_shipping_title": "Fast Shipping",
+    "fast_shipping_text": "We carefully pack your orders and deliver them quickly to your doorstep. Worldwide shipping available.",
+    "craftsmanship_title": "Masterful Craftsmanship",
+    "craftsmanship_text": "Every piece is meticulously handcrafted by experienced artisans to the highest standards."
+  },
+  "newsletter": {
+    "title": "Stay Updated",
+    "subtitle": "Subscribe to receive exclusive offers, new collection alerts, and more.",
+    "placeholder": "Your Email Address",
+    "subscribe": "Subscribe"
+  },
+  "call_to_action": {
+    "title": "Find Your Elegance",
+    "subtitle": "Discover the timeless beauty of SILVERA today.",
+    "shop_all": "Shop All Products"
+  },
+  "footer": {
+    "about_us": "About Us",
+    "contact_us": "Contact Us",
+    "faq": "FAQ",
+    "privacy_policy": "Privacy Policy",
+    "terms_conditions": "Terms & Conditions",
+    "shipping_returns": "Shipping & Returns",
+    "all_rights_reserved": "All rights reserved.",
+    "newsletter_cta": "Stay updated",
+    "email_us": "Email Us:",
+    "follow_us": "Follow Us"
+  },
+  "contact_page": {
+    "title": "Contact Us",
+    "email_address": "Our Email Address:",
+    "business_hours": "Business Hours:",
+    "hours_monday_friday": "Monday - Friday: 09:00 - 18:00",
+    "hours_saturday": "Saturday: 10:00 - 16:00",
+    "hours_sunday": "Sunday: Closed",
+    "send_message": "Send Message",
+    "your_name": "Your Name",
+    "your_email": "Your Email",
+    "your_message": "Your Message",
+    "whatsapp_message_prefill": "Hello, I would like to inquire about SILVERA products."
+  },
+  "product_detail": {
+    "add_to_cart": "Add to Cart",
+    "add_to_wishlist": "Add to Wishlist",
+    "description": "Description",
+    "details": "Details",
+    "material": "Material:",
+    "dimensions": "Dimensions:",
+    "weight": "Weight:",
+    "related_products": "Related Products"
+  },
+  "cart": {
+    "shopping_cart": "Shopping Cart",
+    "empty_cart": "Your cart is empty.",
+    "continue_shopping": "Continue Shopping",
+    "subtotal": "Subtotal:",
+    "checkout": "Proceed to Checkout",
+    "remove": "Remove"
+  },
+  "wishlist": {
+    "your_wishlist": "Your Wishlist",
+    "empty_wishlist": "Your wishlist is empty.",
+    "add_to_cart": "Add to Cart"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "shipping_address": "Shipping Address",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "address_line1": "Address Line 1",
+    "address_line2": "Address Line 2 (Optional)",
+    "city": "City",
+    "state_province": "State/Province",
+    "zip_code": "Zip Code",
+    "country": "Country",
+    "payment_method": "Payment Method",
+    "card_number": "Card Number",
+    "expiration_date": "Expiration Date",
+    "cvv": "CVV",
+    "place_order": "Place Order"
+  },
+  "common": {
+    "price": "Price",
+    "add": "Add",
+    "remove": "Remove",
+    "view_details": "View Details",
+    "quantity": "Quantity",
+    "update": "Update",
+    "total": "Total",
+    "error_message": "An error occurred. Please try again."
+  }
+}

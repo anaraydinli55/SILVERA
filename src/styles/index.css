@@ -1,0 +1,66 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Custom Fonts */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url('/assets/fonts/CormorantGaramond-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url('/assets/fonts/CormorantGaramond-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('/assets/fonts/Manrope-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('/assets/fonts/Manrope-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+/* General Body Styles */
+body {
+  @apply bg-primary-bg text-text-light font-body antialiased;
+  scroll-behavior: smooth;
+  overflow-x: hidden; /* Prevent horizontal scroll due to animations */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-heading text-text-light;
+}
+
+a {
+  @apply text-text-light hover:text-accent-gold transition-colors duration-300;
+}
+
+/* Custom scrollbar for a luxury feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0B111F; /* secondary-bg */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2C3547; /* Darker shade of secondary-bg for thumb */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C8A56A; /* accent-gold on hover */
+}

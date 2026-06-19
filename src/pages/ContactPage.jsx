@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
-import { Mail, Phone, MapPin, Whatsapp } from 'lucide-react';
+import { Mail, Phone, MapPin, MessageSquare } from 'lucide-react';
 
 import SectionHeading from '../components/common/SectionHeading';
 import Button from '../components/common/Button';

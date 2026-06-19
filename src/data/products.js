@@ -134,6 +134,37 @@ export const products = [
   }
 ];
 
+// ... (mevcut ürünler ve helper fonksiyonlarınız) ...
+
+// AŞAĞIDAKİ KISMI src/data/products.js dosyanıza EKLEYİN:
+export const collections = [
+  {
+    id: 'rings',
+    name: 'Yüzükler', // Bu isimleri ve altyazıları i18n key olarak da kullanabilirsiniz
+    imageUrl: '/images/collection-rings.jpg', // Örnek resim yolu
+    path: '/collections/rings'
+  },
+  {
+    id: 'necklaces',
+    name: 'Kolyeler',
+    imageUrl: '/images/collection-necklaces.jpg',
+    path: '/collections/necklaces'
+  },
+  {
+    id: 'earrings',
+    name: 'Künyeler',
+    imageUrl: '/images/collection-earrings.jpg',
+    path: '/collections/earrings'
+  },
+  {
+    id: 'bracelets',
+    name: 'Bileklikler',
+    imageUrl: '/images/collection-bracelets.jpg',
+    path: '/collections/bracelets'
+  },
+  // İhtiyacınız olan diğer koleksiyonları buraya ekleyin
+];
+
 // Helper to simulate fetching product details for a given ID
 export const getProductById = (id) => products.find(p => p.id === id);
 

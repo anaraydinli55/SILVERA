@@ -20,8 +20,8 @@ export const testimonials = [
   },
   {
     id: 4,
-    customerNameKey: 'testimonials.customer_name_1', // Reusing for variety
-    reviewKey: 'testimonials.customer_review_1',
+    customerNameKey: 'testimonials.customer_name_4', // Reusing for variety
+    reviewKey: 'testimonials.customer_review_4',
     rating: 5,
   }
 ];

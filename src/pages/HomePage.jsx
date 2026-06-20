@@ -297,7 +297,7 @@ const HomePage = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
               {[
                 { title: t('trust_quality.silver_certification_title'), text: t('trust_quality.silver_certification_text') },
-                { title: t('trust_quality.secure_payment_title'), text: t('trust_quality.secure_payment_text') },
+                { title: t('trust_quality.secure_resize_title'), text: t('trust_quality.secure_resize_text') },
                 { title: t('trust_quality.fast_shipping_title'), text: t('trust_quality.fast_shipping_text') },
                 { title: t('trust_quality.craftsmanship_title'), text: t('trust_quality.craftsmanship_text') },
               ].map((item, index) => (

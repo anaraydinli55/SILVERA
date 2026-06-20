@@ -89,7 +89,7 @@ export const products = [
   },
     {
     id: 'silver_ring_classic_band_1',
-    name: 'Classic Silver Band Ring',
+    name: 'Classic Silver Band Ring 1',
     description: 'A timeless and versatile polished sterling silver band ring. Simple yet elegant, suitable for stacking or as a standalone piece.',
     material: '925 Sterling Silver',
     dimensions: 'Band width: 3mm',
@@ -104,7 +104,7 @@ export const products = [
   },
     {
     id: 'silver_ring_classic_band_2',
-    name: 'Classic Silver Band Ring',
+    name: 'Classic Silver Band Ring 2',
     description: 'A timeless and versatile polished sterling silver band ring. Simple yet elegant, suitable for stacking or as a standalone piece.',
     material: '925 Sterling Silver',
     dimensions: 'Band width: 3mm',
@@ -119,7 +119,7 @@ export const products = [
   },
     {
     id: 'silver_ring_classic_band_3',
-    name: 'Classic Silver Band Ring',
+    name: 'Classic Silver Band Ring 3',
     description: 'A timeless and versatile polished sterling silver band ring. Simple yet elegant, suitable for stacking or as a standalone piece.',
     material: '925 Sterling Silver',
     dimensions: 'Band width: 3mm',
@@ -134,7 +134,7 @@ export const products = [
   },
     {
     id: 'silver_ring_classic_band_4',
-    name: 'Classic Silver Band Ring',
+    name: 'Classic Silver Band Ring 4',
     description: 'A timeless and versatile polished sterling silver band ring. Simple yet elegant, suitable for stacking or as a standalone piece.',
     material: '925 Sterling Silver',
     dimensions: 'Band width: 3mm',
@@ -149,7 +149,7 @@ export const products = [
   },
     {
     id: 'silver_ring_classic_band_5',
-    name: 'Classic Silver Band Ring',
+    name: 'Classic Silver Band Ring 5',
     description: 'A timeless and versatile polished sterling silver band ring. Simple yet elegant, suitable for stacking or as a standalone piece.',
     material: '925 Sterling Silver',
     dimensions: 'Band width: 3mm',
@@ -164,7 +164,7 @@ export const products = [
   },
     {
     id: 'silver_ring_classic_band_6',
-    name: 'Classic Silver Band Ring',
+    name: 'Classic Silver Band Ring 6',
     description: 'A timeless and versatile polished sterling silver band ring. Simple yet elegant, suitable for stacking or as a standalone piece.',
     material: '925 Sterling Silver',
     dimensions: 'Band width: 3mm',

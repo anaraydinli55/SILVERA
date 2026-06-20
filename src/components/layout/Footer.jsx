@@ -9,7 +9,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const prefilledWhatsAppMessage = encodeURIComponent(t('contact_page.whatsapp_message_prefill'));
-  const whatsappLink = `https://wa.me/YOUR_PHONE_NUMBER?text=${prefilledWhatsAppMessage}`; // Replace YOUR_PHONE_NUMBER
+  const whatsappLink = `https://wa.me/+994554828424?text=${prefilledWhatsAppMessage}`; // Replace YOUR_PHONE_NUMBER
 
   const footerLinks = [
     { title: t('footer.about_us'), path: '/about' }, // Placeholder

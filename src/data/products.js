@@ -88,7 +88,7 @@ export const products = [
     isBestSeller: false,
   },
     {
-    id: 'silver_ring_classic_band',
+    id: 'silver_ring_classic_band1',
     name: 'Classic Silver Band Ring',
     description: 'A timeless and versatile polished sterling silver band ring. Simple yet elegant, suitable for stacking or as a standalone piece.',
     material: '925 Sterling Silver',
@@ -103,7 +103,7 @@ export const products = [
     isBestSeller: false,
   },
     {
-    id: 'silver_ring_classic_band',
+    id: 'silver_ring_classic_band2',
     name: 'Classic Silver Band Ring',
     description: 'A timeless and versatile polished sterling silver band ring. Simple yet elegant, suitable for stacking or as a standalone piece.',
     material: '925 Sterling Silver',
@@ -118,7 +118,7 @@ export const products = [
     isBestSeller: false,
   },
     {
-    id: 'silver_ring_classic_band',
+    id: 'silver_ring_classic_band3',
     name: 'Classic Silver Band Ring',
     description: 'A timeless and versatile polished sterling silver band ring. Simple yet elegant, suitable for stacking or as a standalone piece.',
     material: '925 Sterling Silver',
@@ -133,7 +133,7 @@ export const products = [
     isBestSeller: false,
   },
     {
-    id: 'silver_ring_classic_band',
+    id: 'silver_ring_classic_band4',
     name: 'Classic Silver Band Ring',
     description: 'A timeless and versatile polished sterling silver band ring. Simple yet elegant, suitable for stacking or as a standalone piece.',
     material: '925 Sterling Silver',
@@ -148,7 +148,7 @@ export const products = [
     isBestSeller: false,
   },
     {
-    id: 'silver_ring_classic_band',
+    id: 'silver_ring_classic_band5',
     name: 'Classic Silver Band Ring',
     description: 'A timeless and versatile polished sterling silver band ring. Simple yet elegant, suitable for stacking or as a standalone piece.',
     material: '925 Sterling Silver',
@@ -163,7 +163,7 @@ export const products = [
     isBestSeller: false,
   },
     {
-    id: 'silver_ring_classic_band',
+    id: 'silver_ring_classic_band6',
     name: 'Classic Silver Band Ring',
     description: 'A timeless and versatile polished sterling silver band ring. Simple yet elegant, suitable for stacking or as a standalone piece.',
     material: '925 Sterling Silver',

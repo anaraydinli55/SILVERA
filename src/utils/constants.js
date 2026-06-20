@@ -1,5 +1,5 @@
 // Constants.js
-export const WHATSAPP_NUMBER = 'YOUR_WHATSAPP_NUMBER'; // Örneğin: '994554828424'
+export const WHATSAPP_NUMBER = '+994554828424'; // Örneğin: '994554828424'
 export const CONTACT_EMAIL = 'info@silvera.com';
 export const BRAND_NAME = 'SILVERA';
 

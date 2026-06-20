@@ -2,7 +2,7 @@ export const collections = [
   {
     id: 'rings',
     name: 'Rings',
-    imageUrl: '/images/collection-rings.jpg',
+    imageUrl: '/images/collection-ring.jpg',
     description: 'Discover our exquisite collection of sterling silver rings, from delicate bands to statement pieces.',
     path: '/collections/rings' // For dedicated collection pages
   },

@@ -1,9 +1,10 @@
+
 import { Routes, Route } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Layout from './components/layout/Layout';
 import HomePage from './pages/HomePage';
 import ProductDetailPage from './pages/ProductDetailPage';
-import CollectionsPage from './pages/CollectionsPage';
+import CollectionsPage from './pages/CollectionsPage'; // <-- Bu sayfa kullanılacak
 import ContactPage from './pages/ContactPage';
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
 import TermsAndConditionsPage from './pages/TermsAndConditionsPage';
@@ -15,18 +16,17 @@ import FloatingWhatsApp from './components/common/FloatingWhatsApp';
 function App() {
   const { i18n } = useTranslation();
 
-  // Set default language to Azerbaijani on first load if not already set
-  // This is handled by i18next-browser-languagedetector with fallbackLng: 'az'
-  // but we can ensure it here if needed for specific logic
-  // React useEffect might be better if we want to explicitly set it after component mounts
-  // For now, i18n config handles it.
-
   return (
     <>
       <Layout>
         <Routes>
           <Route path="/" element={<HomePage />} />
+
+          {/* DİKKAT: Buradaki rota tanımını güncelliyoruz! */}
+          {/* Hem '/collections' (genel liste) hem de '/collections/:collectionId' (filtreli liste) için aynı CollectionsPage bileşenini kullanacağız. */}
           <Route path="/collections" element={<CollectionsPage />} />
+          <Route path="/collections/:collectionId" element={<CollectionsPage />} /> {/* <-- Bu satırı ekleyin! */}
+
           <Route path="/product/:id" element={<ProductDetailPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />

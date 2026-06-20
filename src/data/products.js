@@ -1,7 +1,7 @@
 export const products = [
   {
     id: 'silver_ring_eternity',
-    name: 'Eternal Embrace Silver Ring',
+    name: 'Eternal Embrace Gümüş Üzük',
     description: 'A beautifully crafted 925 sterling silver ring featuring a continuous line of sparkling zirconia stones, symbolizing eternal love and commitment. Perfect for everyday elegance or special occasions.',
     material: '925 Sterling Silver, Cubic Zirconia',
     dimensions: 'Band width: 2mm, Stone size: 1.5mm',
@@ -74,7 +74,7 @@ export const products = [
   },
   {
     id: 'silver_ring_classic_band',
-    name: 'Classic Silver Band Ring',
+    name: 'Classic Silver Band Üzük',
     description: 'A timeless and versatile polished sterling silver band ring. Simple yet elegant, suitable for stacking or as a standalone piece.',
     material: '925 Sterling Silver',
     dimensions: 'Band width: 3mm',
@@ -89,7 +89,7 @@ export const products = [
   },
   {
     id: 'silver_necklace_geometric',
-    name: 'Geometric Cube Necklace',
+    name: 'Geometric Cube Boyunbağı',
     description: 'A modern sterling silver necklace featuring a minimalist geometric cube pendant. A statement piece for contemporary style.',
     material: '925 Sterling Silver',
     dimensions: 'Chain length: 50cm, Pendant: 8mm cube',
@@ -104,7 +104,7 @@ export const products = [
   },
   {
     id: 'silver_bracelet_beaded',
-    name: 'Delicate Beaded Bracelet',
+    name: 'Delicate Beaded Biləklik',
     description: 'A subtle sterling silver bracelet adorned with tiny, polished silver beads. Perfect for layering or a delicate everyday look.',
     material: '925 Sterling Silver',
     dimensions: 'Length: 18cm (adjustable)',
@@ -119,7 +119,7 @@ export const products = [
   },
   {
     id: 'silver_earrings_hoops',
-    name: 'Sleek Silver Hoop Earrings',
+    name: 'Sleek Silver Hoop Sırğa',
     description: 'Classic sterling silver hoop earrings, a staple for any jewelry collection. Lightweight and comfortable for all-day wear.',
     material: '925 Sterling Silver',
     dimensions: 'Diameter: 3cm',
@@ -141,7 +141,7 @@ export const collections = [
   {
     id: 'rings',
     name: 'Yüzükler', // Bu isimleri ve altyazıları i18n key olarak da kullanabilirsiniz
-    imageUrl: '/images/collection-rings.jpg', // Örnek resim yolu
+    imageUrl: '/images/collection-ring.jpg', // Örnek resim yolu
     path: '/collections/rings'
   },
   {

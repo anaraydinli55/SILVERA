@@ -67,7 +67,8 @@ export const products = [
     imageUrl: '/images/earring-4.jpg',
     images: [
       '/images/earring-4.jpg',
-      '/images/earring-4-alt1.jpg'
+      '/images/earring-4-alt1.jpg',
+      '/images/earring-4-alt2.jpg'
     ],
     isNewArrival: false,
     isBestSeller: true,

@@ -38,18 +38,21 @@ export const products = [
   },
   {
     id: 'silver_bracelet_serenity',
-    name: 'Serenity Cuff Bracelet',
+    name: 'Əjdaha Cuff Bilərzik',
     description: 'A minimalist yet striking sterling silver cuff bracelet, polished to a high shine. Its open design allows for comfortable wear and makes a bold statement of modern sophistication.',
     material: '925 Sterling Silver',
     dimensions: 'Circumference: 17cm (adjustable), Width: 5mm',
-    weight: '15.0g',
-    price: 149.50,
+    weight: '55.0g',
+    price: 1149.50,
     currency: 'AZN',
     category: 'Bracelets',
     imageUrl: '/images/bracelet-3.jpg',
     images: [
       '/images/bracelet-3.jpg',
-      '/images/bracelet-3-alt1.jpg'
+      '/images/bracelet-3-alt1.mp4',
+      '/images/bracelet-3-alt2.jpg',
+      '/images/bracelet-3-alt3.jpg',
+      '/images/bracelet-3-alt4.jpg'
     ],
     isNewArrival: true,
     isBestSeller: false,

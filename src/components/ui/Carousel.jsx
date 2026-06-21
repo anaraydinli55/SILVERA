@@ -17,6 +17,7 @@ const Carousel = ({ images, className = '' }) => {
     );
   };
 
+  // Animasyon varyantlarını medya öğesine uygulayacağız
   const slideVariants = {
     enter: (direction) => ({
       x: direction > 0 ? '100%' : '-100%',
@@ -32,24 +33,54 @@ const Carousel = ({ images, className = '' }) => {
     }),
   };
 
+  // Şu anki medya öğesinin URL'sini alalım
+  const currentMediaUrl = images[currentIndex];
+  // Medya türünü kontrol edelim
+  const isVideo = currentMediaUrl && currentMediaUrl.endsWith('.mp4');
+
   return (
     <div className={`relative w-full overflow-hidden ${className}`}>
-      <AnimatePresence initial={false} custom={currentIndex}>
-        <motion.img
-          key={currentIndex}
-          src={images[currentIndex]}
-          alt={`Product image ${currentIndex + 1}`}
-          custom={currentIndex} // Pass current index as custom prop
-          variants={slideVariants}
-          initial="enter"
-          animate="center"
-          exit="exit"
-          transition={{
-            x: { type: "spring", stiffness: 300, damping: 30 },
-            opacity: { duration: 0.2 }
-          }}
-          className="w-full h-full object-cover object-center"
-        />
+      <AnimatePresence initial={false} mode="wait"> {/* 'custom' prop yerine 'mode="wait"' kullanmak daha temiz bir geçiş sağlar */}
+        {isVideo ? (
+          <motion.video
+            key={currentMediaUrl} // Medya URL'sini key olarak kullanıyoruz
+            src={currentMediaUrl}
+            custom={currentIndex} // custom prop'unu hala geçirebiliriz, animasyon yönü için
+            variants={slideVariants}
+            initial="enter"
+            animate="center"
+            exit="exit"
+            transition={{
+              x: { type: "spring", stiffness: 300, damping: 30 },
+              opacity: { duration: 0.2 }
+            }}
+            className="w-full h-full object-contain" // object-contain video için genellikle daha iyidir
+            controls={true}
+            autoPlay={true}
+            muted={true}
+            loop={true}
+            playsInline={true}
+            aria-label={`Product video ${currentIndex + 1}`}
+          >
+            Tarayıcınız video etiketini desteklemiyor.
+          </motion.video>
+        ) : (
+          <motion.img
+            key={currentMediaUrl} // Medya URL'sini key olarak kullanıyoruz
+            src={currentMediaUrl}
+            alt={`Product image ${currentIndex + 1}`}
+            custom={currentIndex} // custom prop'unu hala geçirebiliriz
+            variants={slideVariants}
+            initial="enter"
+            animate="center"
+            exit="exit"
+            transition={{
+              x: { type: "spring", stiffness: 300, damping: 30 },
+              opacity: { duration: 0.2 }
+            }}
+            className="w-full h-full object-cover object-center"
+          />
+        )}
       </AnimatePresence>
 
       {images.length > 1 && (
@@ -75,7 +106,7 @@ const Carousel = ({ images, className = '' }) => {
       <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex space-x-2">
         {images.map((_, index) => (
           <button
-            key={index}
+            key={index} // Key olarak indeksi kullanmaya devam edebiliriz, çünkü bu sadece butonlar için
             onClick={() => setCurrentIndex(index)}
             className={`w-2 h-2 rounded-full ${
               currentIndex === index ? 'bg-accent-gold' : 'bg-text-muted opacity-50'

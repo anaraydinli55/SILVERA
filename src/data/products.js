@@ -115,7 +115,8 @@ export const products = [
              '/images/classic-ring-alt222.jpg',
              '/images/classic-ring-alt333.jpg',
              '/images/classic-ring-alt3.jpg',
-             '/images/classic-ring-alt4.jpg'
+             '/images/classic-ring-alt4.jpg',
+             '/images/classic-ring-alt5.jpg'
             ],
     isNewArrival: true,
     isBestSeller: false,

@@ -93,7 +93,12 @@ export const products = [
     currency: 'AZN',
     category: 'Rings',
     imageUrl: '/images/classic-ring.jpg',
-    images: ['/images/classic-ring.jpg'],
+    images: ['/images/classic-ring.jpg',
+            '/images/classic-ring-alt1.jpg',
+            '/images/classic-ring-alt2.jpg',
+             '/images/classic-ring-alt3.jpg',
+             '/images/classic-ring-alt4.jpg'
+            ],
     isNewArrival: true,
     isBestSeller: false,
   },

@@ -12,14 +12,14 @@ export const products = [
     imageUrl: '/images/ring-1.jpg',
     images: [
       '/images/ring-1.jpg',
-      '/images/ring-1-alt1.jpg',
-      '/images/ring-1-alt2.jpg',
-      '/images/ring-1-alt3.jpg',
-      '/images/ring-1-alt4.jpg',
-      '/images/ring-1-alt5.jpg',
-      '/images/ring-1-alt6.jpg',
-      '/images/ring-1-alt7.jpg',
-      '/images/ring-1-alt8.jpg'
+      '/images/ring-1-alt1.jpeg',
+      '/images/ring-1-alt2.jpeg',
+      '/images/ring-1-alt3.jpeg',
+      '/images/ring-1-alt4.jpeg',
+      '/images/ring-1-alt5.jpeg',
+      '/images/ring-1-alt6.jpeg',
+      '/images/ring-1-alt7.jpeg',
+      '/images/ring-1-alt8.jpeg'
     ],
     isNewArrival: true,
     isBestSeller: true,

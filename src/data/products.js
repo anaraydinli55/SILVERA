@@ -31,7 +31,13 @@ export const products = [
     imageUrl: '/images/necklace-2.jpg',
     images: [
       '/images/necklace-2.jpg',
-      '/images/necklace-2-alt1.jpg'
+      '/images/necklace-2-alt1.jpg',
+      '/images/necklace-2-alt2.mp4',
+      '/images/necklace-2-alt3.jpg',
+      '/images/necklace-2-alt4.jpg',
+      '/images/necklace-2-alt5.jpg',
+      '/images/necklace-2-alt6.jpg',
+      '/images/necklace-2-alt7.jpg'
     ],
     isNewArrival: false,
     isBestSeller: true,

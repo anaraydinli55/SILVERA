@@ -12,7 +12,6 @@ export const products = [
     imageUrl: '/images/ring-1.jpg',
     images: [
       '/images/ring-1.jpg',
-      '/images/ring-1-alt11.jpeg',
       '/images/ring-1-alt1.jpeg',
       '/images/ring-1-alt2.jpeg',
       '/images/ring-1-alt3.jpeg',
@@ -101,6 +100,7 @@ export const products = [
     category: 'Rings',
     imageUrl: '/images/classic-ring.jpg',
     images: ['/images/classic-ring.jpg',
+            '/images/classic-ring-alt11.jpg',
             '/images/classic-ring-alt1.jpg',
             '/images/classic-ring-alt2.jpg',
              '/images/classic-ring-alt3.jpg',

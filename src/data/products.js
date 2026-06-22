@@ -129,7 +129,7 @@ export const products = [
     images: ['/images/kepenek-uzuk.jpg',
             '/images/kepenek-uzuk-alt1.jpg',
             '/images/kepenek-uzuk-alt2.jpg',
-            '/images/kepenek-uzuk-alt3.jpg',
+            '/images/kepenek-uzuk-alt3.mp4',
             '/images/kepenek-uzuk-alt4.jpg',
             '/images/kepenek-uzuk-alt5.jpg'],
     isNewArrival: true,

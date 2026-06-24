@@ -26,5 +26,12 @@ export const collections = [
     imageUrl: '/images/collection-earrings.jpg',
     description: 'Find the perfect pair of silver earrings, from subtle studs to dazzling drops.',
     path: '/collections/earrings'
+  },
+    {
+    id: 'broochss',
+    name: 'Broochss',
+    imageUrl: '/images/brooch.jpg',
+    description: 'Find the perfect pair of silver broochs, from subtle studs to dazzling drops.',
+    path: '/collections/broochs'
   }
 ];

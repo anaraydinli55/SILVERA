@@ -30,7 +30,7 @@ export const collections = [
     {
     id: 'broochs',
     name: 'Broochs',
-    imageUrl: '/images/brooch.jpg',
+    imageUrl: '/images/brooch.jpeg',
     description: 'Find the perfect pair of silver broochs, from subtle studs to dazzling drops.',
     path: '/collections/broochs'
   }

@@ -28,8 +28,8 @@ export const collections = [
     path: '/collections/earrings'
   },
     {
-    id: 'broochss',
-    name: 'Broochss',
+    id: 'broochs',
+    name: 'Broochs',
     imageUrl: '/images/brooch.jpg',
     description: 'Find the perfect pair of silver broochs, from subtle studs to dazzling drops.',
     path: '/collections/broochs'

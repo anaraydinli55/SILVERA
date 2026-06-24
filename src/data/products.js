@@ -79,9 +79,9 @@ export const products = [
     price: 319.50,
     currency: 'AZN',
     category: 'Broochs',
-    imageUrl: '/images/brooch.jpg',
+    imageUrl: '/images/brooch.jpeg',
     images: [
-      '/images/brooch.jpg',
+      '/images/brooch.jpeg',
       '/images/brooch-alt1.jpg',
       '/images/brooch-alt2.jpg',
       '/images/brooch-alt3.jpg',

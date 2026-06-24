@@ -319,7 +319,7 @@ export const collections = [
   {
     id: 'broochs',
     name: 'Broşlar', // <-- Bu öğe doğru şekilde burada olmalı
-    imageUrl: '/images/brooch.jpg',
+    imageUrl: '/images/collection-broochs.jpg',
     description: 'Find the perfect pair of silver broochs, from subtle studs to dazzling drops.',
     path: '/collections/broochs'
   },

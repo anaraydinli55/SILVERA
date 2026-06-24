@@ -165,7 +165,7 @@ const ProductDetailPage = () => {
                   <li><span className="font-bold text-text-light">{t('product_detail.material')}</span> {product.material}</li>
                   <li><span className="font-bold text-text-light">{t('product_detail.dimensions')}</span> {product.dimensions}</li>
                   <li><span className="font-bold text-text-light">{t('product_detail.weight')}</span> {product.weight}</li>
-                  <li><span className="font-bold text-text-light">{t('product_detail.category')}</span> {t(`featured_collections.${product.category.toLowerCase()}`)}</li>
+                  <li><span className="font-bold text-text-light">{t('Məhsulun Kateqoriyası')}</span> {t(`featured_collections.${product.category.toLowerCase()}`)}</li>
                 </motion.ul>
               )}
             </div>

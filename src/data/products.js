@@ -208,7 +208,7 @@ export const products = [
     currency: 'AZN',
     category: 'Earrings',
     imageUrl: '/images/Aquamarine-Rose-Quartz.png',
-    images: ['/images/Aquamarine-Rose-Quartz.png',
+    images: ['/images/Aquamarine-Rose-Quartz-alt33.mp4',
             '/images/Aquamarine-Rose-Quartz-alt15.jpg',
             '/images/Aquamarine-Rose-Quartz-alt1.jpeg',
             '/images/Aquamarine-Rose-Quartz-alt11.jpeg',

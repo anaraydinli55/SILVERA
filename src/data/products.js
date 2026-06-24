@@ -88,7 +88,7 @@ export const products = [
       '/images/brooch-alt5.jpg',
       '/images/brooch-alt6.jpg',
       '/images/brooch-alt7.jpg',
-      '/images/brooch-alt8.jpg',
+      '/images/brooch-alt8.jpg'
     ],
     isNewArrival: true,
     isBestSeller: false,

@@ -246,7 +246,7 @@ export const products = [
     currency: 'AZN',
     category: 'Earrings',
     imageUrl: '/images/hoop-earrings.jpg',
-    images: ['/images/hoop-earrings.jpg',
+    images: ['/images/hoop-earrings-alt33.mp4',
             '/images/hoop-earrings-alt1.jpg',
             '/images/hoop-earrings-alt2.jpeg',
             '/images/hoop-earrings-alt11.jpg',

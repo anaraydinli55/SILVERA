@@ -315,7 +315,13 @@ export const collections = [
     imageUrl: '/images/collection-bracelets.jpg',
     path: '/collections/bracelets'
   },
-  // İhtiyacınız olan diğer koleksiyonları buraya ekleyin
+  {
+    id: 'broochs',
+    name: 'Broşlar', // <-- Bu öğe doğru şekilde burada olmalı
+    imageUrl: '/images/brooch.jpg',
+    description: 'Find the perfect pair of silver broochs, from subtle studs to dazzling drops.',
+    path: '/collections/broochs'
+  },
 ];
 
 // Helper to simulate fetching product details for a given ID

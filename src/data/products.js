@@ -37,6 +37,7 @@ export const products = [
     imageUrl: '/images/amethyst-uzuk.jpeg',
     images: [
       '/images/amethyst-uzuk.jpeg',
+      '/images/amethyst-uzuk-alt33.mp4',
       '/images/amethyst-uzuk-alt5.jpg',
       '/images/amethyst-uzuk-alt1.jpg',
       '/images/amethyst-uzuk-alt2.jpg',

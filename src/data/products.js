@@ -132,7 +132,7 @@ export const products = [
     images: [
       '/images/brooch.jpeg',
       '/images/brooch-alt11.jpeg',
-      '/images/brooch-alt1.jpg',
+      '/images/brooch-alt1.jpeg',
       '/images/brooch-alt12.jpeg',
       '/images/brooch-alt2.jpg',
       '/images/brooch-alt13.jpeg',

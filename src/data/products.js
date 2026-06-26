@@ -224,7 +224,7 @@ export const products = [
       '/images/flower-brooch-alt33.jpeg',
       '/images/flower-brooch-alt15.jpeg',
       '/images/flower-brooch-alt34.jpeg',
-      '/images/flower-brooch-alt16.jpeg',
+      '/images/flower-brooch-alt16.jpg',
       '/images/flower-brooch-alt35.jpeg'
     ],
     isNewArrival: true,

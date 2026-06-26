@@ -174,9 +174,9 @@ export const products = [
       '/images/elegant-swan-alt17.jpg',
       '/images/elegant-swan-alt8.jpg',
       '/images/elegant-swan-alt18.jpg',
-      '/images/elegant-swan-alt9.jpg',
+      '/images/elegant-swan-alt9.jpeg',
       '/images/elegant-swan-alt19.jpg',
-      '/images/elegant-swan-alt10.jpg',
+      '/images/elegant-swan-alt10.jpeg',
       '/images/elegant-swan-alt20.jpg'
     ],
     isNewArrival: true,

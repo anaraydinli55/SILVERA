@@ -1,20 +1,23 @@
+// src/components/Carousel.jsx (veya projenizdeki Carousel dosyasının yolu)
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ChevronLeft, ChevronRight, VolumeX, Volume2 } from 'lucide-react'; // VolumeX ve Volume2 eklendi
+import { ChevronLeft, ChevronRight, VolumeX, Volume2 } from 'lucide-react';
 
 const Carousel = ({ images, className = '' }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [isMuted, setIsMuted] = useState(true); // Yeni state: Sesin açık mı kapalı mı olduğunu tutar
+  const [direction, setDirection] = useState(0); // 0: başlangıç, 1: ileri, -1: geri
+  const [isMuted, setIsMuted] = useState(true);
   const videoRef = useRef(null);
 
-  // Carousel'in önceki ve sonraki öğelerine geçiş fonksiyonları
   const goToPrevious = () => {
+    setDirection(-1);
     setCurrentIndex((prevIndex) =>
       prevIndex === 0 ? images.length - 1 : prevIndex - 1
     );
   };
 
   const goToNext = () => {
+    setDirection(1);
     setCurrentIndex((prevIndex) =>
       prevIndex === images.length - 1 ? 0 : prevIndex + 1
     );
@@ -22,32 +25,34 @@ const Carousel = ({ images, className = '' }) => {
 
   // currentMediaUrl veya currentIndex değiştiğinde videoyu yönetmek için useEffect
   useEffect(() => {
-    // Önceki videoyu durdur, referansı temizle ve sesini kapat (geçişlerde temizlik)
+    const currentMedia = images[currentIndex];
+    const isVideo = currentMedia && currentMedia.endsWith('.mp4');
+
+    // Her değişimde mevcut videoyu durdur ve başa sar
     if (videoRef.current) {
       videoRef.current.pause();
-      videoRef.current.currentTime = 0; // Videoyu başa sar
+      videoRef.current.currentTime = 0;
     }
 
-    const currentMedia = images[currentIndex];
-    if (currentMedia && currentMedia.endsWith('.mp4')) {
-      // Eğer mevcut medya bir videoysa ve referansı varsa
+    if (isVideo) {
+      // Eğer mevcut medya bir videoysa
       if (videoRef.current) {
-        // Videonun 'muted' durumunu state'ten al
-        videoRef.current.muted = isMuted;
+        videoRef.current.muted = isMuted; // Videonun 'muted' durumunu state'ten al
 
-        // Play Promise'ini yönet, otomatik oynatma hatalarını yakala
         const playPromise = videoRef.current.play();
         if (playPromise !== undefined) {
           playPromise.catch(error => {
-            // Otomatik oynatma engellendi, sesi kapatıp tekrar dene (tarayıcı politikası)
+            // Otomatik oynatma engellendi, sesi kapatıp tekrar dene
             console.warn("Autoplay was prevented, or user interaction required. Playing muted.", error);
-            videoRef.current.muted = true; // Sesi kapat
-            setIsMuted(true); // State'i de güncelle
-            videoRef.current.play(); // Tekrar oynatmayı dene (bu sefer sessiz)
+            videoRef.current.muted = true;
+            setIsMuted(true);
+            videoRef.current.play();
           });
         }
       }
     }
+    // currentIndex değiştiğinde yönü sıfırla (animasyonun doğru çalışması için)
+    // setDirection(0); // Bu satırı ekleyebiliriz ama framer-motion'ın kendi mantığı da yeterli olabilir
   }, [currentIndex, images, isMuted]); // isMuted state'i de bağımlılık olarak eklendi
 
   // Ses ikonuna tıklandığında muted durumunu değiştiren fonksiyon
@@ -58,7 +63,12 @@ const Carousel = ({ images, className = '' }) => {
     }
   };
 
-  // Animasyon varyantları
+  // Video bittiğinde bir sonraki medyaya geç (isteğe bağlı)
+  const handleVideoEnded = () => {
+    goToNext();
+  };
+
+  // Animasyon varyantları (direction state'ini kullanıyoruz)
   const slideVariants = {
     enter: (direction) => ({
       x: direction > 0 ? '100%' : '-100%',
@@ -77,7 +87,6 @@ const Carousel = ({ images, className = '' }) => {
   const currentMediaUrl = images[currentIndex];
   const isVideo = currentMediaUrl && currentMediaUrl.endsWith('.mp4');
 
-  // Görsel yüklenemediğinde veya boş olduğunda gösterilecek içerik
   if (!images || images.length === 0) {
     return (
       <div className={`flex items-center justify-center bg-secondary-bg text-text-muted ${className}`}>
@@ -87,14 +96,14 @@ const Carousel = ({ images, className = '' }) => {
   }
 
   return (
-    <div className={`relative w-full overflow-hidden ${className}`}>
-      <AnimatePresence initial={false} mode="wait">
+    <div className={`relative overflow-hidden ${className}`}> {/* className buraya uygulandı */}
+      <AnimatePresence initial={false} mode="wait" custom={direction}>
         {isVideo ? (
           <motion.video
             key={currentMediaUrl}
-            ref={videoRef} // Video elementine referans atıyoruz
+            ref={videoRef}
             src={currentMediaUrl}
-            custom={currentIndex}
+            custom={direction} // Yönü animasyona iletiyoruz
             variants={slideVariants}
             initial="enter"
             animate="center"
@@ -103,12 +112,13 @@ const Carousel = ({ images, className = '' }) => {
               x: { type: "spring", stiffness: 300, damping: 30 },
               opacity: { duration: 0.2 }
             }}
-            className="w-full h-full object-contain"
-            controls={false} // <- ÖNEMLİ: Kendi kontrollerimizi kullanacağımız için HTML kontrollerini kapatıyoruz
+            className="absolute inset-0 w-full h-full object-cover" // Kapsayıcı div'i doldur
+            controls={false}
             autoPlay={true}
-            muted={isMuted} // <- isMuted state'ine bağlı
+            muted={isMuted}
             loop={true}
             playsInline={true}
+            onEnded={handleVideoEnded} // Video bittiğinde next'e geç
             aria-label={`Product video ${currentIndex + 1}`}
           >
             Tarayıcınız video etiketini desteklemiyor.
@@ -118,7 +128,7 @@ const Carousel = ({ images, className = '' }) => {
             key={currentMediaUrl}
             src={currentMediaUrl}
             alt={`Product image ${currentIndex + 1}`}
-            custom={currentIndex}
+            custom={direction} // Yönü animasyona iletiyoruz
             variants={slideVariants}
             initial="enter"
             animate="center"
@@ -127,7 +137,7 @@ const Carousel = ({ images, className = '' }) => {
               x: { type: "spring", stiffness: 300, damping: 30 },
               opacity: { duration: 0.2 }
             }}
-            className="w-full h-full object-cover object-center"
+            className="absolute inset-0 w-full h-full object-cover" // Kapsayıcı div'i doldur
           />
         )}
       </AnimatePresence>
@@ -165,11 +175,11 @@ const Carousel = ({ images, className = '' }) => {
       )}
 
       {/* Navigasyon noktaları */}
-      <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex space-x-2">
+      <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex space-x-2 z-10">
         {images.map((_, index) => (
           <button
             key={index}
-            onClick={() => setCurrentIndex(index)}
+            onClick={() => { setDirection(index > currentIndex ? 1 : -1); setCurrentIndex(index); }} // Noktalara tıklarken de yönü ayarla
             className={`w-2 h-2 rounded-full ${
               currentIndex === index ? 'bg-accent-gold' : 'bg-text-muted opacity-50'
             } transition-colors duration-300`}

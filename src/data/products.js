@@ -219,7 +219,7 @@ export const products = [
       '/images/gumush-paxlava-uzuk-alt4.jpeg',
       '/images/gumush-paxlava-uzuk-alt24.jpeg',
       '/images/gumush-paxlava-uzuk-alt5.jpeg',
-      '/images/gumush-paxlava-uzuk-alt25.jpeg',
+      '/images/gumush-paxlava-uzuk-alt25.jpg',
       '/images/gumush-paxlava-uzuk-alt6.jpeg',
       '/images/gumush-paxlava-uzuk-alt26.jpeg',
       '/images/gumush-paxlava-uzuk-alt7.jpeg',

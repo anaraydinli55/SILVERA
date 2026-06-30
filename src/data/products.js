@@ -267,8 +267,7 @@ export const products = [
              '/images/safir-15-dash-alt15.jpeg',
              '/images/safir-15-dash-alt6.jpeg',
              '/images/safir-15-dash-alt16.jpeg',
-             '/images/safir-15-dash-alt7.jpeg'
-            ],
+             '/images/safir-15-dash-alt7.jpeg'],
     isNewArrival: true,
     isBestSeller: false,
   },

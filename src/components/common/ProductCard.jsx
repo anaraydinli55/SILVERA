@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Heart, ShoppingCart } from 'lucide-react';
 import Button from './Button'; // Button bileşeninizin yolu
-import Carousel from '../Carousel'; // Carousel bileşeninizin yolu
+import Carousel from '../ui/Carousel'; // Carousel bileşeninizin yolu
 
 const ProductCard = ({ product, className = '' }) => {
   const { t } = useTranslation();

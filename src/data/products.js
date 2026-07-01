@@ -599,7 +599,8 @@ export const collections = [
 export const getProductById = (id) => products.find(p => p.id === id);
 
 // Helper to get products by category
-export const getProductsByCategory = (category) => products.filter(p => p.category === category);
+export const getProductsByCategory = (category) => 
+  products.filter(p => p.category.toLowerCase() === category.toLowerCase());
 
 // Helper to get best sellers
 export const getBestSellers = (limit = 4) => products.filter(p => p.isBestSeller).slice(0, limit);
@@ -610,6 +611,6 @@ export const getNewArrivals = (limit = 4) => products.filter(p => p.isNewArrival
 // Helper to get related products (simple example, could be more complex)
 export const getRelatedProducts = (currentProductId, category, limit = 4) => {
   return products
-    .filter(p => p.category === category && p.id !== currentProductId)
+    .filter(p => p.category.toLowerCase() === category.toLowerCase() && p.id !== currentProductId)
     .slice(0, limit);
 };

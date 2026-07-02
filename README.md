@@ -4,6 +4,7 @@ This repository contains the front-end code for SILVERA, a premium and responsiv
 
 The website is built with a dark luxury and editorial design language, using a sophisticated color palette and elegant typography to create a high-end feel. It supports multiple languages (Azerbaijani, Russian, English) and features a comprehensive set of e-commerce functionalities.
 
+
 ## Live Demo
 
 **(Optional: Add a link to your deployed Vercel/Netlify app here once deployed)**

@@ -259,7 +259,7 @@ export const products = [
              '/images/safir-15-dash-alt11.jpeg',
             '/images/safir-15-dash-alt2.jpeg',
              '/images/safir-15-dash-alt12.jpeg',
-             '/images/safir-15-dash-alt3.jpeg',
+             '/images/safir-15-dash-alt3.jpg',
              '/images/safir-15-dash-alt13.jpeg',
              '/images/safir-15-dash-alt4.jpeg',
              '/images/safir-15-dash-alt14.jpeg',

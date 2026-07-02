@@ -271,7 +271,6 @@ export const products = [
     isNewArrival: true,
     isBestSeller: false,
   },
-    },
     {
     id: 'iki_uzuk_multi_dashli',
     name: '2 Barmaq Üzük',
